@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Fish Reservation</title>
+</head>
+<style>
+  .center-button{
+        text-align: center;
+      }
+</style>
+<body>
+  <h1>Welcome to AG KOIFARM</h1>
+
+  <p>Choose your fish and make a reservation:</p>
+
+
+
+
+
+  <button id="reservationButton">Reserve Now</button>
+
+
+ <div id="reservationForm" style="display: none;">
+
+   <h2>Reservation Form</h2>
+
+   <form>
+
+   
+
+       <label for="name">Name:</label>
+
+       <input type="text" id="name" name="name" required><br>
+
+
+
+      
+
+
+
+       <button type="submit">Submit Reservation</button>
+
+   </form>
+
+</div>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+
+const reservationButton = document.getElementById("reservationButton");
+
+const reservationForm = document.getElementById("reservationForm");
+
+
+
+reservationButton.addEventListener("click", function () {
+
+  
+
+   reservationForm.style.display = "block";
+
+   });
+
+});
+</script>
+
+<script src="script.js"></script>
+
+    <style>
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: 200;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+        
+        @media only screen and (max-width: 700px) {
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+        }
+        
+        @media only screen and (max-width: 500px) {
+          .responsive {
+            width: 100%;
+          }
+        }
+        
+        .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        h2 {
+        font-family: "Times New Roman", sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h4 {
+        font-family: "Times New Roman", sans-serif;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+        </style>
+        </head>
+        <body>
+        
+       
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="gallery\koi15.jpeg">
+              <img src="gallery\koi15.jpeg" alt="nishiki koi" width="600" height="400">
+            </a>
+            <div class="desc"> 30cm koi for RS3000 </div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="services\angle fish.jpeg">
+              <img src="services\angle fish.jpeg" alt="angle fish" width="600" height="400">
+            </a>
+            <div class="desc">Angle fish 250-300 unit</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="services\buttfly koi.jpeg">
+              <img src="services\buttfly koi.jpeg" alt="butterfly koi" width="600" height="400">
+            </a>
+            <div class="desc">White and orange buttfly koi 1200 unit</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="services\comet fish.jpeg">
+              <img src="services\comet fish.jpeg" alt="comet fish" width="600" height="400">
+            </a>
+            <div class="desc">Comet fish RS200 unit</div>
+          </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\fish fighter.jpeg">
+                <img src="services\fish fighter.jpeg" alt="fish fighter" width="600" height="400">
+              </a>
+              <div class="desc">Fish fighter RS 300 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\goldfish.jpeg">
+                <img src="services\goldfish.jpeg" alt="goldfish" width="600" height="400">
+              </a>
+              <div class="desc">Goldfish pair RS400</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\guppies.jpeg">
+                <img src="services\guppies.jpeg" alt="guppies" width="600" height="400">
+              </a>
+              <div class="desc">Guppies for only RS40 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\koi22.jpeg">
+                <img src="services\koi22.jpeg" alt="white butterfly koi" width="600" height="400">
+              </a>
+              <div class="desc">White butterfly for RS1500 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\neon fish.jpeg">
+                <img src="services\neon fish.jpeg" alt="neon" width="600" height="400">
+              </a>
+              <div class="desc">Neon fish RS40-1 RS1000-15</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\platies.jpeg">
+                <img src="services\platies.jpeg" alt="platies" width="600" height="400">
+              </a>
+              <div class="desc">Platies for only RS50 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\silver shark.jpeg">
+                <img src="services\silver shark.jpeg" alt="silver shark" width="600" height="400">
+              </a>
+              <div class="desc">Silver shark for only RS900 pair</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\shark.jpeg">
+                <img src="services\shark.jpeg" alt="black shark" width="600" height="400">
+              </a>
+              <div class="desc">Black shark for onlyRS5000 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\canister.jpeg">
+                <img src="services\canister.jpeg" alt="CANISTER" width="600" height="400">
+              </a>
+              <div class="desc">Canister RS10000</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\filter form.jpeg">
+                <img src="services\filter form.jpeg" alt="filter" width="600" height="400">
+              </a>
+              <div class="desc">Filter RS400 unit</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\fish net.jpeg">
+                <img src="services\fish net.jpeg" alt="fish net" width="600" height="400">
+              </a>
+              <div class="desc">Fish net for only RS1000</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\aquarium.jpeg">
+                <img src="services\aquarium.jpeg" alt="aquarium" width="600" height="400">
+              </a>
+              <div class="desc">Full aquarium setup for RS3000</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\pump.jpeg">
+                <img src="services\pump.jpeg" alt="PUMP" width="600" height="400">
+              </a>
+              <div class="desc">Pump RS3000</div>
+            </div>
+          </div>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="services\uv.jpeg">
+                <img src="services\uv.jpeg" alt="uv pump" width="600" height="400">
+              </a>
+              <div class="desc">Uv pump for only RS 2500</div>
+            </div>
+          </div>
+        
+        <div class="clearfix"></div>
+        
+        <div style="padding:6px;">
+          <p></p>
+          <p></p>
+        </div>
+
+        <h2>Services and Prices</h2>
+        
+        <h4>Best prices and services for your pond.</h4>
+        <P>We provide delivery at some specific places</P>
+        <P> Rose Belle:On every friday<br>Curepipe:On saturday</P>
+        <P>Fees for transport is only RS150</P>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
